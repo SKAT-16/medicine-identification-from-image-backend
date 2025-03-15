@@ -1,0 +1,56 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pdb
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+bin/
+lib/
+lib64/
+share/
+pyvenv.cfg
+etc/
+lib64
+
+# .env file to keep sensitive information out of the repository
+.env
+
+# FastAPI specific
+*.db
+*.sqlite3
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Dependency directories
+node_modules/
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+*.coveragerc
+coverage.xml
+nosetests.xml
+test-results/
+
+# PyInstaller
+*.spec
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
